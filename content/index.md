@@ -6,6 +6,6 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+![Jag, ätandes en stor ramen](%assets_url%/img/me_ramen_small.png "Test title")
 
-This is a sample home page written in markdown with some frontmatter defined.
+Hej, det här är min portfolio-sida. Arbete pågår!
