@@ -1,8 +1,8 @@
 ---
-Logo: image/logo_black.png
-Tagline: Mattias portfolio.
+Logo: image/logo_black_256x256.png
+Tagline: A decent portfolio
 Social:
-    - title: Link till sidans github repo.
+    - title: Länk till sidans github repo.
       url: https://github.com/legitmattias/portfolio
-      icon: github
+      icon: fab fa-github
 ---
