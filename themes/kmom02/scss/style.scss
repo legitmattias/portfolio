@@ -16,7 +16,7 @@ body {
     background-color: $background-color;
     overflow-x: hidden;
     overflow-x: scroll;
-    margin: 2rem;
+    margin: 20rem;
 }
 
 * {
@@ -31,4 +31,17 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
+}
+
+.me_img {
+    float: right;
+    padding-left: 2rem;
+  }
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: yellow;
 }

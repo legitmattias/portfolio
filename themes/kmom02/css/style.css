@@ -6545,10 +6545,10 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-color: #3d5a80;
+  background-color: #5d88c0;
   overflow-x: hidden;
   overflow-x: scroll;
-  margin: 2rem;
+  margin: 20rem;
 }
 
 * {
@@ -6563,4 +6563,17 @@ h4,
 h5,
 h6 {
   font-family: "Open Sans", sans-serif;
+}
+
+.me_img {
+  float: right;
+  padding-left: 2rem;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: yellow;
 }
