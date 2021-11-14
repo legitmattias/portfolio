@@ -16,7 +16,8 @@ body {
     background-color: $background-color;
     overflow-x: hidden;
     overflow-x: scroll;
-    margin: 20rem;
+    width: 70%;
+    margin: 3rem auto;
 }
 
 * {
@@ -33,15 +34,15 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
-.me_img {
+.me-img {
     float: right;
     padding-left: 2rem;
-  }
+}
 
 a:hover {
-    color: white;
+    color: $link-hover-color;
 }
 
 a:active {
-    color: yellow;
+    color: $link-active-color;
 }
