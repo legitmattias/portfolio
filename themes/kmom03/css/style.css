@@ -399,8 +399,13 @@ pre code {
 }
 
 @media (max-width: 767px) {
-  .header {
+  .header,
+.site-header {
     flex-direction: column;
+  }
+
+  .hidden {
+    display: none !important;
   }
 
   .nav ul {
@@ -444,9 +449,10 @@ pre code {
 .technology-container .technology {
   box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.2);
   height: 5rem;
+  min-width: 10rem;
   border: 1px solid #aaa;
   padding: 1rem;
-  background-image: linear-gradient(to bottom right, #ccc, #005);
+  background-image: linear-gradient(to bottom right, #ccc, #8e6e53);
   color: #000;
   font-size: 2rem;
   text-decoration: none;
@@ -6598,7 +6604,7 @@ readers do not read off random characters that represent icons */
 body {
   display: flex;
   flex-direction: column;
-  background-color: #98c1f7;
+  background-color: #c69c72;
   overflow-x: hidden;
   overflow-x: scroll;
   width: 70%;
