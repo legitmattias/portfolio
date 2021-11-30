@@ -24,8 +24,13 @@
 }
 
 @media (max-width: 767px) {
-    .header {
+    .header,
+    .site-header {
         flex-direction: column;
+    }
+
+    .hidden {
+        display: none !important;
     }
 
     .nav ul {
