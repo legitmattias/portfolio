@@ -1,0 +1,86 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-nav';
+@import 'technologies';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    color: $font-color;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+    overflow-x: hidden;
+    overflow-x: scroll;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.me-img {
+    float: right;
+    padding-left: 2rem;
+}
+
+a:hover {
+    color: $link-hover-color;
+}
+
+a:active {
+    color: $link-active-color;
+}
+
+.footer {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-between;
+    border-top: 1px dotted #222;
+}
