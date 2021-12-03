@@ -25,6 +25,7 @@
 .technology-article {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .technology-article .sidebar {
@@ -54,8 +55,13 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
     .technology-article .sidebar {
         display: none;
     }
+
+    .technology-container h1,
+    .technology-container p {
+        grid-column: span 1;
+}
 }

@@ -468,6 +468,7 @@ pre code {
 .technology-article {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .technology-article .sidebar {
@@ -496,9 +497,14 @@ pre code {
   right: 2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .technology-article .sidebar {
     display: none;
+  }
+
+  .technology-container h1,
+.technology-container p {
+    grid-column: span 1;
   }
 }
 /*!
