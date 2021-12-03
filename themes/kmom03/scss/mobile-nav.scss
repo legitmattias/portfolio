@@ -6,12 +6,12 @@
 .nav ul {
     display: flex;
     justify-content: flex-end;
-    padding: 1em 0;
+    padding: 1rem 0;
     list-style: none;
 }
 
 .nav ul li {
-    padding: 0 1em;
+    padding: 0 1rem;
 }
 
 .nav a,
@@ -33,9 +33,15 @@
         display: none !important;
     }
 
+    .title,
+    .logo {
+        padding: 0 !important;
+        align-self: center;
+    }
+
     .nav ul {
         flex-direction: column;
-        padding-bottom: 1em;
+        padding-bottom: 1rem;
     }
 
     .nav ul li {
@@ -46,13 +52,13 @@
 
     .nav ul li a {
         display: block;
-        padding: 0.5em 0;
+        padding: 0.5rem 0;
     }
 
     .js .nav-toggle {
         display: block;
         float: right;
-        width: 2em;
+        width: 2rem;
         margin: 0.6667em 0;
         font-size: 1.5rem;
         line-height: 2em;

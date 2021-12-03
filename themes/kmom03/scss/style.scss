@@ -45,11 +45,15 @@ body {
 
 .title,
 .logo {
-    padding: 3em 3em 3em 0;
+    padding: 2rem 2rem 2rem 0;
+}
+
+.logo img {
+    width: 150px;
 }
 
 .title * {
-    color: #111;
+    color: #000;
 }
 
 .title p {

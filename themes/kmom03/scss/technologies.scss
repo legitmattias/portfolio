@@ -2,6 +2,7 @@
     display: grid;
     grid-column: span 3;
     gap: 2rem 2rem;
+    padding-bottom: 2rem;
 }
 
 .technology-container h1,
@@ -39,6 +40,19 @@
 .technology-article .article {
     width: auto;
 }
+
+.technology {
+    position: relative;
+}
+
+.technology img {
+    width: 2rem;
+    height: 2rem;
+    position: absolute; 
+    bottom: 1rem;
+    right: 2rem;
+}
+
 
 @media (max-width: 800px) {
     .technology-article .sidebar {

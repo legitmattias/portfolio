@@ -381,12 +381,12 @@ pre code {
 .nav ul {
   display: flex;
   justify-content: flex-end;
-  padding: 1em 0;
+  padding: 1rem 0;
   list-style: none;
 }
 
 .nav ul li {
-  padding: 0 1em;
+  padding: 0 1rem;
 }
 
 .nav a,
@@ -408,9 +408,15 @@ pre code {
     display: none !important;
   }
 
+  .title,
+.logo {
+    padding: 0 !important;
+    align-self: center;
+  }
+
   .nav ul {
     flex-direction: column;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
   }
 
   .nav ul li {
@@ -421,13 +427,13 @@ pre code {
 
   .nav ul li a {
     display: block;
-    padding: 0.5em 0;
+    padding: 0.5rem 0;
   }
 
   .js .nav-toggle {
     display: block;
     float: right;
-    width: 2em;
+    width: 2rem;
     margin: 0.6667em 0;
     font-size: 1.5rem;
     line-height: 2em;
@@ -439,6 +445,7 @@ pre code {
   display: grid;
   grid-column: span 3;
   gap: 2rem 2rem;
+  padding-bottom: 2rem;
 }
 
 .technology-container h1,
@@ -475,6 +482,18 @@ pre code {
 
 .technology-article .article {
   width: auto;
+}
+
+.technology {
+  position: relative;
+}
+
+.technology img {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
 }
 
 @media (max-width: 800px) {
@@ -6628,11 +6647,15 @@ body {
 
 .title,
 .logo {
-  padding: 3em 3em 3em 0;
+  padding: 2rem 2rem 2rem 0;
+}
+
+.logo img {
+  width: 150px;
 }
 
 .title * {
-  color: #111;
+  color: #000;
 }
 
 .title p {

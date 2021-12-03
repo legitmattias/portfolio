@@ -4,5 +4,5 @@ Description: This is my technology landing page
 Template: technologies
 ---
 
-Teknologier
+Teknologier som jag använder
 ===========================
