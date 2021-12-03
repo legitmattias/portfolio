@@ -496,15 +496,9 @@ pre code {
   right: 2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .technology-article .sidebar {
     display: none;
-  }
-
-  .technology-container {
-    display: grid;
-    grid-column: span 1;
-    padding-bottom: 2rem;
   }
 
   .technology-container h1,
